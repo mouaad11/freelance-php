@@ -1,0 +1,22 @@
+form {
+    border: solid 2px gray;
+}
+.infobord{
+    border: solid 2px gray;
+}
+#image-preview {
+    display: flex;
+    flex-direction: row;
+   
+}
+.preview-image {
+    max-width: 20%;
+    max-height: 200px;
+    margin: 0 10px 10px 0; 
+    flex-wrap: wrap;
+}
+@media (max-width: 800px){
+    .preview-image{
+        max-width: 100% ; 
+    }
+}
